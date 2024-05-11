@@ -1,0 +1,10 @@
+ADD(i2,0,r0)\n
+ADD(i1,0,r@r0)\n
+SUB(r0,1,r0)\n
+JLA(r0,0,-2)\n
+ADD(i2,0,r0)\n
+MLT(r1,r@r0,r1)\n
+SUB(r0,1,r0)\n
+JLA(r0,1,-2)\n 
+ADD(r1,0,o1)\n
+BRK\n
